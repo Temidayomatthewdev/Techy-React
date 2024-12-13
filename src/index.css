@@ -1,0 +1,14 @@
+:root{
+  --surface-color: #297010;
+  --surface-text-color: #c8b239;
+  --off-text-color: #121111;
+  --error-color: #c83939;
+  --second-surface-color: #686138;
+
+}
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,16 @@
+.cards{
+    text-align: center;
+    position: relative;
+
+}
+.cards > img {
+    width: 120px;
+    height: 80px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.cards title{
+    color: red;
+}
