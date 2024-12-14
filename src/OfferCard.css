@@ -1,16 +1,14 @@
-.cards{
-    text-align: center;
+.offer-card{
     position: relative;
+    text-align: center;
 
 }
-.cards > img {
+.offer-card > img {
     width: 104px;
     height: 67px;
 }
-.card-container{
+.offer-container{
     display: flex;
     justify-content: space-between;
-}
-.cards title{
-    color: red;
+    height: 90px;
 }

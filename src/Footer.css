@@ -7,16 +7,22 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 90px;
+    height: 88px;
     padding: 10px;
 }
 .footer > div {
-     width: 120px;
-     height: 70px;
+     width: 116.67px;
+     height: 68px;
      display: flex;
      justify-content: center;
      align-items: center;
      color: black;
      background-color: white;
      font-weight: bold;
+     display: flex;
+     flex-direction: column;
 }
+#icon{
+    font-weight:bolder;
+    font-size: 25px;
+} 

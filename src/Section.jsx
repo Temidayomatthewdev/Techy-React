@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section.css'
 import CategoryCard from './CategoryCard'
+import OfferCard from './OfferCard'
 
 const Section = () => {
   return (
@@ -15,28 +16,28 @@ const Section = () => {
                 <h3>Buy</h3>
             <div className='card-container'>
                 < CategoryCard title='Animals' image= "/hen.jpeg"/>
-                < CategoryCard title='Crops' image= "/hen.jpeg"/>
-                < CategoryCard title='Others' image= "/hen.jpeg"/>
+                < CategoryCard title='Crops' image= "/crops.jpg"/>
+                < CategoryCard title='Others' image= "/others.jpg"/>
             </div>
                 <h3>Sell</h3>
           
             <div className='card-container'>
                 < CategoryCard title='Animals' image= "/hen.jpeg"/>
-                < CategoryCard title='Crops' image= "/hen.jpeg"/>
-                < CategoryCard title='Others' image= "/hen.jpeg"/>
-            </div>
-            
-        </section>
-        <section className='section3'>
-            <div>
-                <h3 style={{color:"white", margin: "5px 0px"}}>offers/Discounts</h3>
-            </div>
-            <div className='card-container'>
-                < CategoryCard title="Premium Package" image= "/hen.jpeg"/>
-                < CategoryCard title='Golden Package' image= "/hen.jpeg"/>
-                < CategoryCard title='Diamind Package' image= "/hen.jpeg"/>
+                < CategoryCard title='Crops' image= "/crops.jpg"/>
+                < CategoryCard title='Others' image= "/others.jpg"/>
             </div>
         </section>
+        <section className='offer-section'>
+        <h3 style={{color:"white", margin: "7px 0px"}}>offers/Discounts</h3>
+                <div className='offer-container'>
+                    <OfferCard title="Premium" image ="/Premium.jpg" />
+                    <OfferCard title="Golden" image ="/gold.jpg" />
+                    <OfferCard title="Diamond" image ="/diamond.jpg" />
+                </div>
+        </section>    
+                
+                
+        
         
     </main>
     
