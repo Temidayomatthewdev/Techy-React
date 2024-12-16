@@ -1,0 +1,17 @@
+.Bsec{
+    text-align: center;
+    position: relative;
+
+}
+.Bsec > img {
+    width: 81.5px;
+    height: 40px;
+}
+.Bsec-container{
+    display: Grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+.Bsec > #birds{
+    color: red;
+}

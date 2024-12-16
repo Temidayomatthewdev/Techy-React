@@ -2,7 +2,7 @@ import { FiHome } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
 import { RiCompassDiscoverLine } from "react-icons/ri";
 import React from 'react'
-import "./Footer.css"
+import "../Component/Footer.css"
 
 const Footer = () => {
   return (

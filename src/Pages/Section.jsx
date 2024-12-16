@@ -1,9 +1,15 @@
 import React from 'react'
-import './Section.css'
+import '../Pages/Section.css'
 import CategoryCard from './CategoryCard'
 import OfferCard from './OfferCard'
+import { useNavigate } from 'react-router-dom'
 
 const Section = () => {
+        const navigate = useNavigate();
+        const goToBuyerPage = () => {
+            navigate("/Buyer")
+        }
+   
   return (
     <main>
         <section className='section'>
@@ -13,7 +19,7 @@ const Section = () => {
             </div>
         </section>
         <section className='section2'>
-                <h3>Buy</h3>
+               <h3 onClick={goToBuyerPage}>Buy</h3>
             <div className='card-container'>
                 < CategoryCard title='Animals' image= "/hen.jpeg"/>
                 < CategoryCard title='Crops' image= "/crops.jpg"/>

@@ -1,0 +1,14 @@
+.BOffer{
+    position: relative;
+    text-align: center;
+
+}
+.BOffer > img {
+    width: 105.33px;
+    height: 100px;
+}
+.BOffer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}

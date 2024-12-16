@@ -1,0 +1,22 @@
+.Bbtn{
+    width: 100%;
+    height: 67px;
+    
+}
+.Bbtn > button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color:green;
+    box-shadow: 0px 5px 10x 0px black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color:var(--surface-text-color);
+    padding-left:20px ;
+    border: none;
+    margin-top: 30px;
+    
+}

@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+header > .icon{
+    font-size: 25px;
+    font-weight: bold;
+}
+header > h2{
+    margin-left:10px;
+    font-size: 35px;
+}
+header > p{
+    font-size:14px ;
+}

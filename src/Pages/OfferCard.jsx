@@ -1,5 +1,5 @@
 import React from 'react'
-import "./OfferCard.css"
+import "../Pages/OfferCard.css"
 
 const OfferCard = ({image, title}) => {
   return (
