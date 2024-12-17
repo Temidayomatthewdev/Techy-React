@@ -15,7 +15,7 @@ const BuyerSection = () => {
       <h3>Animals</h3>
      
             <div className='Bsec-container'>
-    <Link to="/">
+    <Link to="/Goat">
     < BSection title='Goats' image= "/Goat.jpg"/>
     </Link>
                
